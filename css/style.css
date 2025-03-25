@@ -73,6 +73,7 @@ h2 {
 .forecast {
   color: #ffffff;
   margin-left: 20px;
+  text-transform: capitalize;
 }
 
 .humidity {
