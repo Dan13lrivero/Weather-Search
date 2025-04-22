@@ -13,8 +13,7 @@ body {
   align-items: center;
   background-image: url("https://fastly.picsum.photos/id/1004/1920/1089.jpg?hmac=FyDC5UM0wyI2hhaWAP5Nsi_WB4Hx4Q_oqtQpBsxwZSE");
 }
-
-.biggest-box {
+body .biggest-box {
   background-color: #000000;
   opacity: 0.8;
   border-radius: 25px;
@@ -22,8 +21,7 @@ body {
   width: 95%;
   max-width: 450px;
 }
-
-input {
+body .biggest-box .city-input {
   border: none;
   outline: none;
   padding: 10px;
@@ -33,8 +31,7 @@ input {
   color: #ffffff;
   width: calc(100% - 70px);
 }
-
-button {
+body .biggest-box button {
   border: none;
   outline: none;
   padding: 10px;
@@ -43,40 +40,33 @@ button {
   border-radius: 50px;
   float: right;
 }
-
-.search {
+body .biggest-box button .search {
   width: 20px;
 }
-
-h2 {
+body .biggest-box .medium-box {
+  margin-top: 30px;
+}
+body .biggest-box .medium-box .city {
   color: #ffffff;
   font-size: 28px;
   font-weight: 500;
 }
-
-.medium-box {
-  margin-top: 30px;
-}
-
-.degrees {
+body .biggest-box .medium-box .degrees {
   font-size: 20px;
   color: #ffffff;
   margin-top: 20px;
 }
-
-.small-box {
+body .biggest-box .medium-box .small-box {
   display: flex;
   align-items: center;
   margin-top: 20px;
 }
-
-.forecast {
+body .biggest-box .medium-box .small-box .forecast {
   color: #ffffff;
   margin-left: 20px;
   text-transform: capitalize;
 }
-
-.humidity {
+body .biggest-box .medium-box .humidity {
   color: #ffffff;
   margin-top: 20px;
 }
